@@ -1,4 +1,4 @@
-# DocMind — RAG Chatbot 🧠
+# DocMind — RAG Chatbot 
 
 ## Overview
 An end-to-end Retrieval-Augmented Generation (RAG) chatbot that lets users upload any PDF document and ask natural language questions. Built with LangChain, Google Gemini, and FAISS vector database.
