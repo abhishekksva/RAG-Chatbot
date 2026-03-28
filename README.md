@@ -31,18 +31,17 @@ cd DocMind-RAG-Chatbot
 ```
 
 ### 2. Install dependencies
-```bash
+
 pip install -r requirements.txt
-```
+
 
 ### 3. Get Gemini API Key
 - Go to https://aistudio.google.com
 - Create a free API key
 
 ### 4. Run the app
-```bash
+
 streamlit run app.py
-```
 
 ## Results
 - Accurate document Q&A with source attribution
