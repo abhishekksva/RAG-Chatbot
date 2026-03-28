@@ -4,9 +4,9 @@
 An end-to-end Retrieval-Augmented Generation (RAG) chatbot that lets users upload any PDF document and ask natural language questions. Built with LangChain, Google Gemini, and FAISS vector database.
 
 ## Architecture
-```
+
 PDF Upload → Text Chunking → Embeddings (Gemini) → FAISS Index → Retrieval → LLM Answer
-```
+
 
 ## Tech Stack
 - **LangChain** — RAG orchestration pipeline
@@ -25,10 +25,10 @@ PDF Upload → Text Chunking → Embeddings (Gemini) → FAISS Index → Retriev
 ## How to Run
 
 ### 1. Clone the repo
-```bash
+
 git clone https://github.com/abhishekksva/DocMind-RAG-Chatbot.git
 cd DocMind-RAG-Chatbot
-```
+
 
 ### 2. Install dependencies
 
