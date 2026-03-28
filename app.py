@@ -6,7 +6,6 @@ from rag_pipeline import build_rag_pipeline, ask_question
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="DocMind — RAG Chatbot",
-    page_icon="🧠",
     layout="centered"
 )
 
