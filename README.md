@@ -15,7 +15,7 @@
 
 | Deployment | Link |
 |---|---|
-| 🌐 Streamlit App (Cloud Run) | [docmind.run.app](#) ← *replace with your Cloud Run URL* |
+| 🌐 Streamlit App (Cloud Run) | |
 | 🤖 Vertex AI Agent Engine | `projects/YOUR_PROJECT/locations/us-central1/reasoningEngines/ID` |
 
 ---
