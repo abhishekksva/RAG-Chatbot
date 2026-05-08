@@ -18,7 +18,7 @@ from multi_agent_rag import rag_pipeline, build_index
 
 
 def deploy(project_id: str, location: str = "us-central1"):
-    print(f"\n🚀 Deploying DocMind to Vertex AI Agent Engine...")
+    print(f"\n Deploying DocMind to Vertex AI Agent Engine...")
     print(f"   Project: {project_id} | Region: {location}\n")
 
     vertexai.init(project=project_id, location=location)
@@ -26,7 +26,7 @@ def deploy(project_id: str, location: str = "us-central1"):
     # Wrap the ADK agent in a ReasoningEngine app
     app = reasoning_engines.AdkApp(
         agent=rag_pipeline,
-        enable_tracing=True,   # enables Cloud Trace — key FDE observability skill
+        enable_tracing=True,   # enables Cloud Trace — 
     )
 
     # Deploy (this takes ~3-5 minutes)
@@ -43,7 +43,7 @@ def deploy(project_id: str, location: str = "us-central1"):
         description="Two-agent RAG pipeline: retriever + answer synthesizer",
     )
 
-    print("\n✅ Deployment successful!")
+    print("\n Deployment successful!")
     print(f"   Resource name: {remote_app.resource_name}")
     print(f"\n   Save this resource name — you'll need it to query the deployed agent.\n")
 
