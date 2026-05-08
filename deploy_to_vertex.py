@@ -29,7 +29,7 @@ def deploy(project_id: str, location: str = "us-central1"):
         enable_tracing=True,   # enables Cloud Trace — 
     )
 
-    # Deploy (this takes ~3-5 minutes)
+    # Deploy 
     remote_app = reasoning_engines.ReasoningEngine.create(
         app,
         requirements=[
