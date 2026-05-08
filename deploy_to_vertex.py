@@ -26,7 +26,7 @@ def deploy(project_id: str, location: str = "us-central1"):
     # Wrap the ADK agent in a ReasoningEngine app
     app = reasoning_engines.AdkApp(
         agent=rag_pipeline,
-        enable_tracing=True,   # enables Cloud Trace — 
+        enable_tracing=True,   # enables the Cloud Trace  -
     )
 
     # Deploy 
