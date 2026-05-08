@@ -124,14 +124,5 @@ pip install "google-cloud-aiplatform[adk,reasoningengine]"
 python deploy_to_vertex.py --project YOUR_PROJECT_ID
 ```
 
-See [DEPLOY_GUIDE.md](./DEPLOY_GUIDE.md) for full setup instructions.
-
-
-## Built by
-
-**Abhishek Krishna Srivastava**  
-[GitHub](https://github.com/abhishekksva) · [LinkedIn](#) · [Live Demo](#)
-
----
 
 *Built with LangChain · FAISS · Google Gemini · Google ADK · Vertex AI · Cloud Run*
