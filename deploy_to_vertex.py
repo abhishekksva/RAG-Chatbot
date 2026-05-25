@@ -21,7 +21,7 @@ def deploy(project_id: str, location: str = "us-central1"):
     print(f"\n Deploying DocMind to Vertex AI Agent Engine...")
     print(f"   Project: {project_id} | Region: {location}\n")
 
-    vertexai.init(project=project_id, location=location)
+    vertexai.init(project=project_id, location=location, staging_bucket="gs://ragchatbot-staging-494818")
 
     # Wrap the ADK agent in a ReasoningEngine app
     app = reasoning_engines.AdkApp(
