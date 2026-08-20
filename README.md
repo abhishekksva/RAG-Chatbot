@@ -16,7 +16,6 @@
 | Deployment | Link |
 |---|---|
 | 🌐 Streamlit App (Cloud Run) | https://docmind-771590715074.us-central1.run.app/ |
-| 🤖 Vertex AI Agent Engine |
 
 ---
 
